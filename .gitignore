@@ -1,0 +1,29 @@
+# Secrets - never commit your API key
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# App data (local progress file)
+study_profile.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+myvenv/
+.venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
